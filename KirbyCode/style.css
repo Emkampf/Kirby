@@ -1,0 +1,163 @@
+.wrapper {
+    position: fixed;
+    background-image: url(https://th.bing.com/th/id/OIP.JMib-8tjZfTKkPZB0xjCVwHaHa?pid=ImgDet&rs=1);
+    background-size: 200px;
+    background-position: top 50px left 50px; 
+    background-color: yellow;
+  }
+    
+  .head {
+    position: fixed;
+    left: 550px;
+    width: 450px;
+    height: 450px;
+    box-shadow: 10px -10px 15px black;
+    border: radial-gradient(rgba(255,130,155,1) 76%,        rgba(244,77,168,1) 20%);
+    border-radius: 49% 50% 50% 50% / 51% 48% 52% 49%;
+    background-color: rgb(255,130,155);
+    background: radial-gradient(rgba(255,130,155,1) 76%,        rgba(244,77,168,1) 20%);
+    z-index: 3;
+    
+  }
+  
+  .left-eye {
+    position: fixed;
+    top: 76px;
+    left: 710px;
+    width: 40px;
+    height: 90px;
+    border: solid 2px black;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+    background-color: black;
+    background-image: linear-gradient(to top, rgb(6,6,189), black,  black);
+    transform: rotate(10deg);
+  }
+  
+  .left-pupil {  
+    position: fixed;
+    background: radial-gradient(white 56%, black 65%);
+    top: 2%;
+    left: 10%;
+    width: 30px;
+    height: 43px;
+    border-radius: 80% 80% 80% 80% / 80% 80% 80% 80%;
+  }
+    
+  
+  .right-eye {
+    position: fixed;
+    top: 86px;
+    left: 785px;
+    width: 40px;
+    height: 90px;
+    border: solid 2px black;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 100%;
+    background-color: black;
+    background-image: linear-gradient(to top, rgb(6,6,189), black,  black);
+    transform: rotate(10deg);
+  }
+  
+  .right-pupil{
+    position: fixed;
+    background: radial-gradient(white 56%, black 65%);
+    top: 2%;
+    left: 10%;
+    width: 30px;
+    height: 43px;
+    border-radius: 80% 80% 80% 80% / 80% 80% 80% 80%;
+  }
+  
+  .left-cheek {
+    position: fixed;
+    background: rgb(244,77,168);
+    background: radial-gradient(rgba(244,77,168,1) 53%,     rgba(221,132,186,1) 76%);
+    top: 180px;
+    left: 620px;
+    width: 75px;
+    height: 30px;
+    border-style: hidden, 0px;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 99%;
+    transform: rotate(10deg);
+    
+  }
+  
+  .right-cheek {
+    position: fixed;
+    background: rgb(244,77,168);
+    background: radial-gradient(rgba(244,77,168,1) 53%, rgba(221,132,186,1) 76%);
+    top: -6px;
+    left: 210px;
+    width: 80px;
+    height:30px;
+    border-style: hidden, 0px;
+    border-radius: 100% 100% 100% 100% / 100% 100% 100% 99%;
+    transform: rotate(-3deg);
+  }
+  
+  
+  .mouth {
+    position: fixed;
+    top: 42%;
+    left: -135%;
+    width: 70px;
+    height: 50px;
+    border-width: 100px 50px 0 50px;
+    border-radius: 50% 49% 65% 65% / 11% 10% 115% 115%;
+    background-color: black;
+    background-image: linear-gradient(to top, red, black);
+    transform: rotate(5deg);
+    
+  }
+  
+  .left-arm {
+    position: fixed;  
+    top: 50px;
+    left: 490px;
+    height: 250px;
+    width: 115px;
+    box-shadow: 6px -15px 15px black;
+    border-radius: 100%;
+    background-color: rgb(255,130,155);
+    background: radial-gradient(rgba(255,130,155,1) 76%,        rgba(244,77,168,1) 20%);
+    transform: rotate(-25deg);
+    z-index: 4;
+  }
+  
+  .right-arm {
+    position: fixed;
+    top: 200px;
+    left: 970px;
+    height: 230px;
+    width: 115px;
+    box-shadow: 10px 0px 15px black;
+    border-radius: 100%;
+    background-color: rgb(255,130,155);
+    transform: rotate(-55deg);
+  }
+  
+  
+  .left-foot {
+    position: fixed;
+    top: 310px;
+    left: 530px;
+    height: 250px;
+    width: 145px;
+    border-radius: 100%;
+    background-color: rgb(255,51,85);
+    transform: rotate(-115deg);
+    box-shadow: -15px 25px 15px black;
+    
+  }
+  
+  .right-foot {
+    position: fixed;
+    top: 345px;
+    left: 855px;
+    height: 230px;
+    width: 145px;
+    border-radius: 100%;
+    background-color: rgb(255,51,85);
+    transform: rotate(-50deg);
+    box-shadow: 6px 15px 15px black;
+    
+  }
